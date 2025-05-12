@@ -12,9 +12,10 @@ function App() {
                     <img src={reactLogo} className="logo react" alt="React logo" />
                 </a>
             </div>
-            <h1>DEMO CLOUDFLARE WORKER {new Date().getFullYear()}</h1>
+            <h1>DEMO CLOUDFLARE WORKER {new Date().getFullYear()} {count}</h1>
             <div className="card">
-                <button onClick={() => setCount(count => count + 1)}>COUNT IS {count}</button>
+                <button onClick={() => setCount(count => count + 1)}>INCREASE</button>
+                <button onClick={() => setCount(count => count - 1)}>DECREASE</button>
             </div>
         </>
     );

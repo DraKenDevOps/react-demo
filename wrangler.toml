@@ -1,5 +1,5 @@
 name = "demo"
-type = "webpack"
+type = "javascript"
 compatibility_date = "2025-05-09"
 main = "worker.js"
 [site]

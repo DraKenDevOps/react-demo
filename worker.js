@@ -1,11 +1,3 @@
-// export default {
-//   async fetch(request) {
-//     return new Response(JSON.stringify({
-//       timestamp: Date.now(),
-//       status: "healthy"
-//     }));
-//   }
-// }
 import { getAssetFromKV } from "@cloudflare/kv-asset-handler";
 
 addEventListener("fetch", (event) => {
